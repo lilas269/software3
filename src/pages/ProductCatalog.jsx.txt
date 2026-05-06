@@ -1,0 +1,14 @@
+import ProductCard from "../components/ProductCard";
+import { products } from "../data/products";
+
+const ProductCatalog = () => {
+  return (
+    <div className="catalog">
+      {products.map((p) => (
+        <ProductCard key={p.id} product={p} />
+      ))}
+    </div>
+  );
+};
+
+export default ProductCatalog;

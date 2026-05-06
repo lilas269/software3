@@ -1,0 +1,6 @@
+export const products = [
+  { id: 1, name: "Laptop", price: 1200, image: "https://via.placeholder.com/300" },
+  { id: 2, name: "Phone", price: 800, image: "https://via.placeholder.com/300" },
+  { id: 3, name: "Headphones", price: 150, image: "https://via.placeholder.com/300" },
+  { id: 4, name: "Watch", price: 250, image: "https://via.placeholder.com/300" }
+];
